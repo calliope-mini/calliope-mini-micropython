@@ -1,0 +1,17 @@
+{
+  "name": "calliope-micropython",
+  "version": "0.0.0",
+  "license": "MIT",
+  "description": "MicroPython port to the Calliope mini",
+  "keywords": ["mbed-classic", "microbit", "runtime", "library", "micropython"],
+  "author": "Mohamad El Khatib El Khalidi",
+  "homepage": "http://micropython.org",
+  "dependencies":{
+    "microbit-dal":"Make-Code-Play/microbit-dal#v1.0.0"
+  },
+  "extraIncludes":[
+    "inc",
+    "inc/microbit"
+  ],
+  "bin": "./source"
+}
