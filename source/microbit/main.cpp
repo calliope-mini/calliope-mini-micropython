@@ -103,7 +103,7 @@ static void do_lexer(mp_lexer_t *lex) {
         mp_obj_type_t *exc_type = mp_obj_get_type((mp_obj_t)nlr.ret_val);
         if (!mp_obj_is_subclass_fast(exc_type, &mp_type_SystemExit)
             && !mp_obj_is_subclass_fast(exc_type, &mp_type_KeyboardInterrupt)) {
-            microbit_display_exception(nlr.ret_val);
+//            microbit_display_exception(nlr.ret_val);
         }
     }
 }

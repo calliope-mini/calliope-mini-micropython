@@ -60,7 +60,7 @@ Upon reset you will have a REPL on the USB CDC serial port, with baudrate
 
 Then try:
 
-    >>> import calliope_mini *
+    >>> import calliope_mini
     >>> calliope_mini.display.scroll('hello!')
     >>> calliope_mini.button_a.is_pressed()
     >>> dir(calliope_mini)
